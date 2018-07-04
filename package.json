@@ -193,6 +193,7 @@
     }
   },
   "scripts": {
+    "start": "reaction",
     "devserver": "NODE_ENV=devserver nodemon .reaction/devserver/index.js",
     "lint": "eslint .",
     "test": "npm run test:unit && npm run test:integration && npm run test:app",
